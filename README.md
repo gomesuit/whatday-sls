@@ -7,6 +7,7 @@ mvn package shade:shade
 # デプロイ
 ```
 sls deploy -v
+sls deploy -v --stage prod
 ```
 
 # ローカル実行
